@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Competition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Festival Competition</h1>
+        <form id="submissionForm" enctype="multipart/form-data">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="objective" placeholder="Objective" required>
+            <input type="file" id="photo" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="status"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
