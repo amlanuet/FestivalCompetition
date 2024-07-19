@@ -16,7 +16,9 @@ body {
     width: 300px;
 }
 .object {
-  width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
 }
 
 input, button {
