@@ -20,9 +20,8 @@
                 <option value="Anne">Anne</option>
                 <option value="Tim">Tim</option>
             </select>
-            <input type="text" id="name" placeholder="Name" required>
             <input type="text" id="objective" placeholder="Objective" required>
-            <input type="file" id="photo" required>
+            <input type="file" accept="image/*" capture="filesystem" id="photo" required>
             <button type="submit">Submit</button>
         </form>
         <div id="status"></div>
