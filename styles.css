@@ -16,8 +16,6 @@ body {
     width: 300px;
 }
 .object {
-    padding-top: 10px;
-    padding-bottom: 10px;
     width: 80%;
 }
 
@@ -41,6 +39,7 @@ button:hover {
 
 /* The container must be positioned relative: */
 .custom-select {
+    margin: 10px;
   position: relative;
   font-family: Arial;
 }
